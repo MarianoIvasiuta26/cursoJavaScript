@@ -8,3 +8,5 @@ var puntuacion = 0;
 
 var record;
 record= 5000;
+
+alert("Mi nombre es: " + nombre);
