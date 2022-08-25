@@ -28,3 +28,15 @@ camisetas = "5";
 pantalones = 5;
 totalArticulos = Number(camisetas) + pantalones; //Se convirtió el valor de camisetas a un tipo Number
 
+//CONDICIONALES 
+//Operadores lógicos ---> (|| y &&)
+var precioCoche=500000;
+var dineroAhorrado=prompt("Ingrese cuanto dinero tiene ahorrado");
+var edad=prompt("Introduce tu edad:");
+var loteria=prompt("¿Haz ganado la lotería?");
+
+if(dineroAhorrado >= precioCoche || loteria == "si" && edad >= 18){
+    console.log("Puedes comprar el coche");
+}else{
+    console.log("No puedes comprar el coche");
+}
