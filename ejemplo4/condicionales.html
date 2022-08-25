@@ -47,5 +47,19 @@
         </table>
     </form>
     
+    <script>
+        var cuerpo=document.getElementById("cuerpo");
+        var colorWeb=prompt("Escriba el color que desee para el fondo. Azul/Rojo/Verde");
+
+        if(colorWeb == "Azul"){
+            cuerpo.style.backgroundColor="blue";
+        }else if(colorWeb== "Rojo"){
+            cuerpo.style.backgroundColor="red";
+        }else if(colorWeb=="Verde"){
+            cuerpo.style.backgroundColor="green";
+        }else{
+            alert("El color ingresado no está contemplado por el programa");
+        }
+    </script>
 </body>
 </html>
