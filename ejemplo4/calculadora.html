@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de práctica</title>
+
+    <script>
+        var num1=prompt("Ingrese el primer número");
+        var num2=prompt("Ingrese el segundo número");
+        var operacion= prompt("¿Qué operación desea realizar? suma/resta/multiplicación/división").toLowerCase();
+        
+        if(operacion == "suma"){
+            alert(parseInt(num1)+ parseInt(num2));
+        }else if(operacion == "resta"){
+            alert(parseInt(num1)-parseInt(num2));
+        }else if(operacion=="multiplicacion" || operacion=="multiplicación"){
+            alert(parseInt(num1) * parseInt(num2));
+        }else if(operacion=="division" || operacion=="división"){
+            alert(parseInt(num1) / parseInt(num2)); 
+        }
+
+    </script>
+</head>
+
+<body>
+
+    
+</body>
+</html>
