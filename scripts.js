@@ -10,3 +10,7 @@ var record;
 record= 5000;
 
 alert("Mi nombre es: " + nombre);
+
+//Operaciones
+alert((5+5)*55);
+
