@@ -49,13 +49,15 @@
     
     <script>
         var cuerpo=document.getElementById("cuerpo");
-        var colorWeb=prompt("Escriba el color que desee para el fondo. Azul/Rojo/Verde");
+        var colorWeb=prompt("Escriba el color que desee para el fondo. Azul/Rojo/Verde").toLowerCase();
 
-        if(colorWeb == "Azul"){
+        //Métodos toLowerCase y toUpperCase
+
+        if(colorWeb == "azul"){
             cuerpo.style.backgroundColor="blue";
-        }else if(colorWeb== "Rojo"){
+        }else if(colorWeb== "rojo"){
             cuerpo.style.backgroundColor="red";
-        }else if(colorWeb=="Verde"){
+        }else if(colorWeb=="verde"){
             cuerpo.style.backgroundColor="green";
         }else{
             alert("El color ingresado no está contemplado por el programa");
