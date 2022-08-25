@@ -28,5 +28,3 @@ camisetas = "5";
 pantalones = 5;
 totalArticulos = Number(camisetas) + pantalones; //Se convirtió el valor de camisetas a un tipo Number
 
-//OPERADORES INCREMENTO/DECREMENTO Y PROMPT --> FUNCIÓN DE ENTRADA DE DATOS
-
