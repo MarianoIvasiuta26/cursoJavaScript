@@ -40,3 +40,13 @@ if(dineroAhorrado >= precioCoche || loteria == "si" && edad >= 18){
 }else{
     console.log("No puedes comprar el coche");
 }
+
+//BUCLES
+//WHILE
+var meses=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+var contador=0;
+
+while(contador < meses.length){
+    console.log(meses[contador]);
+    contador++;
+}
