@@ -34,10 +34,10 @@ console.log("El total de la compra es: " + totalArticulos);
 //CONDICIONALES 
 //Operadores lógicos ---> (|| y &&)
 console.log("-------CONDICIONALES-------");
-var precioCoche=500000;
-var dineroAhorrado=prompt("Ingrese cuanto dinero tiene ahorrado");
-var edad=prompt("Introduce tu edad:");
-var loteria=prompt("¿Haz ganado la lotería?");
+let precioCoche=500000;
+let dineroAhorrado=prompt("Ingrese cuanto dinero tiene ahorrado");
+let edad=prompt("Introduce tu edad:");
+let loteria=prompt("¿Haz ganado la lotería?");
 
 if(dineroAhorrado >= precioCoche || loteria == "si" && edad >= 18){
     console.log("Puedes comprar el coche");
@@ -48,8 +48,8 @@ if(dineroAhorrado >= precioCoche || loteria == "si" && edad >= 18){
 //BUCLES
 //WHILE
 console.log("-------WHILE-------");
-var meses=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
-var contador=0;
+let meses=["Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"];
+let contador=0;
 
 while(contador < meses.length){
     console.log(meses[contador]);
