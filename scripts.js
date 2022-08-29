@@ -30,6 +30,7 @@ camisetas = "5";
 pantalones = 5;
 totalArticulos = Number(camisetas) + pantalones; //Se convirtió el valor de camisetas a un tipo Number
 
+
 //CONDICIONALES 
 //Operadores lógicos ---> (|| y &&)
 var precioCoche=500000;
