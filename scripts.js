@@ -9,21 +9,23 @@ let puntuacion = 0;
 let record;
 record= 5000;
 
-// Ejemplo --> alert("Mi nombre es: " + nombre);
+console.log("Mi nombre es: " + nombre);
 
 //Operaciones
 
-// Ejemplo --> alert((5+5)*55);
+console.log((5+5)*55);
 
 //EJEMPLO DE OPERACIONES\\
 
-    var precioUnidad, cantidad, total;
+    let precioUnidad, cantidad, total;
     precioUnidad = 5;
     cantidad = 100;
     total = precioUnidad * cantidad;
 
+    console.log("El precio total es: " + total);
+
 //FUNCIÓN NUMBER();
-var camisetas, pantalones, totalArticulos;
+let camisetas, pantalones, totalArticulos;
 camisetas = "5";
 pantalones = 5;
 totalArticulos = Number(camisetas) + pantalones; //Se convirtió el valor de camisetas a un tipo Number
@@ -53,3 +55,4 @@ while(contador < meses.length){
 
 console.log("Mi nombre es: " + nombre);
 
+console.log("El total de la compra es: " + totalArticulos);
