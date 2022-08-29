@@ -2,11 +2,11 @@ alert("Bienvenidos a mi página");
 
 //DECLARACION DE VARIABLES
 
-var nombre = "Mariano";
+let nombre = "Mariano";
 
-var puntuacion = 0;
+let puntuacion = 0;
 
-var record;
+let record;
 record= 5000;
 
 // Ejemplo --> alert("Mi nombre es: " + nombre);
@@ -50,3 +50,6 @@ while(contador < meses.length){
     console.log(meses[contador]);
     contador++;
 }
+
+console.log("Mi nombre es: " + nombre);
+
