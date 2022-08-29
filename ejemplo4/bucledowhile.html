@@ -19,27 +19,6 @@
             </td>
         </tr>
     </table>
-    <script>
-        var aleatorio=Math.round(Math.random() * 100);
-        var minum, intentos;
-        var mensaje=document.getElementById("c_mensaje");
-        var intentosConsumidos=document.getElementById("c_intentos");
-        minum=0;
-        intentos=0;
-
-        do {
-            minum=prompt("Ingrese un número entre 0 y 100");
-            if(aleatorio>minum){
-                mensaje.value="Más alto";
-            }
-            if(aleatorio<minum){
-                mensaje.value="Más bajo";            
-            }
-            intentos++;
-            intentosConsumidos.value=intentos;
-        } while (aleatorio != minum);
-        
-        document.write("Correcto. Lo haz conseguido en " + intentos + " intentos");
-    </script>
+    <script src="../ejemplo4/scripts-dowhile.js"></script>
 </body>
 </html>

@@ -4,12 +4,7 @@
 <meta charset="UTF-8">
 <title>Usando Arrays</title>
 <link rel="stylesheet" href="css/micss.css">
-<script>
-  //Declaraciones de arrays
-  var articulos= ["Zapatillas", "Camiseta", "Pantalón", "Medias"];
-	//var articulos=new Array("Zapatillas", "Camiseta", "Pantalón", "Medias"); --> Opción 2
 
-</script>
 </head>
 
 <body>
@@ -21,29 +16,7 @@
   <div class="contenido">
     <div class="principal">
       <h1>Manejando Arrays</h1>
-      <script>
-        document.write("<p> El primer artículo es <strong>");
-        document.write(articulos[0] + "</strong>");
-        document.write("</p>");
-        alert(articulos.length);
-        document.write("<p> El último elemento es <strong>");
-        document.write(articulos[articulos.length-1] + "</strong></p>"); //--> para acceder al ultimo elemento del array
-        
-        articulos.unshift("Balón"); //--> agrega elemento en la primera posicion del array
-        
-        document.write("<p>Agregamos un elemento. Agregamos: <strong>");
-        document.write(articulos[0] + "</strong></p>");
-
-        document.write("<p> Agregamos un elemento al final: <strong>");
-        articulos.push(prompt("Introduce el artículo a agregar: ")); //--> Agrega un elemento al final
-        document.write(articulos[articulos.length-1] + "</strong></p>");
-        
-        alert("Se borrará el primer elemento del array");
-        articulos.shift(); //--> borra el primer elemento
-	    
-        alert("Se borrará el último elemento del array");
-        articulos.pop(); //--> borra el último elemento
-      </script>
+      <script src="../ejemplo3/scripts3.js"></script>
      </div>
   </div>
   
